@@ -1,0 +1,11 @@
+---
+images:
+- image:      "ascend6/forseti-go"
+  server:     "docker.demo.opsgem.net"
+  creds:      "ascend6-docker-opsgem"
+  tag:        "test"
+  branches:
+    master:
+     tag:    "latest"
+     server: "docker.io"
+     creds:  "ascend6-docker-io"
