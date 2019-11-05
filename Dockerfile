@@ -6,6 +6,7 @@ USER root
 ENV app myapp
 ENV workspace /workspace
 ENV artifacts /artifacts
+ENV src ./
 
 # linux darwin windows freebsd
 ENV _GOOS "darwin linux"

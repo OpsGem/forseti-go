@@ -8,7 +8,7 @@ do
   do
     export GOOS GOARCH
     echo "Building ${GOOS}-${GOARCH}"
-    go build -o ${artifacts}/${app}-$GOOS-$GOARCH
+    go build -o ${artifacts}/${app}-$GOOS-$GOARCH ${src}/*.go
   done
 done
 
