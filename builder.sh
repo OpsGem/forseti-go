@@ -1,6 +1,6 @@
 #!/bin/bash
 
-go get ./...
+go get -v ./...
 
 for GOOS in ${_GOOS}
 do
